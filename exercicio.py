@@ -2,12 +2,18 @@ import flet as ft
 
 def main(page: ft.Page):
     def mostrar_mensagem(e):
-        page.add(ft.Text("Eu vou ser o rei dos piratas."))
+        page.add(ft.Text("Gato."))
 
     page.add(
-        ft.Text("Olá, meu nome é Luffy!"),
+        ft.Text(
+            "Bem-Vindo ao app Indoor Animal",
+            size=24,
+            color= "blue",
+            weight=ft.FontWeight.W_600
+        ),
+
         ft.Image(
-            src="images/luffy.webp",
+            src="images/gato.jpg",
             height=200
         ),
         ft.Button(
