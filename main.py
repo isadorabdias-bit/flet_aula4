@@ -22,9 +22,9 @@ def main(page: ft.Page):
             color="white"
         ),
         ft.Image(
-            src="https://www.sp.senai.br/images/senai.svg",
+            src="https://www.sp.senai.br/imagens/senai.svg",
             width=150,
-            height=150
+            h
         )
     )
     
